@@ -143,4 +143,18 @@ grounding/config/configs
 grounding/version.py
 
 vis/
-tmp/
+tmp/# Ignorer les poids
+weights/
+*.pth
+*.pt
+
+# Ignorer les dossiers systèmes/cache
+__pycache__/
+*.pyc
+*.so
+*.o
+.ipynb_checkpoints/
+
+# Ignorer les images de test et résultats
+test_images/
+rfinal_result.jpg
